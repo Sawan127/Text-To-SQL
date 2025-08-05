@@ -2,6 +2,9 @@
 
 ![Gradio app](<images/Gradio app.png>)
 
+[![Gradio app Demo](video/Gradio app.png)](video/Text_To_Sql_Chatbot.mp4)
+*🎥 Click the image above to view the demo video*
+
 This project is a **Text-to-SQL chatbot** built using:
 - **Google Gemini API** (wrapped in OpenAI-compatible interface)
 - **LangChain** for SQL query generation and execution

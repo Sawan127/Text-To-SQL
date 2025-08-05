@@ -2,7 +2,7 @@ import gradio as gr
 from utils.chatbot import ChatBot
 from utils.ui_settings import UISettings
 
-
+# Gradio Text-to-SQL Application
 with gr.Blocks() as demo:
     with gr.Tabs():
         with gr.TabItem("Q&A-with-SQL-and-TabularData"):
