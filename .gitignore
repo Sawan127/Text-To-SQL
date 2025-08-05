@@ -9,8 +9,6 @@ wheels/
 # Virtual environments
 .venv
 
-# Database files
-*.db
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

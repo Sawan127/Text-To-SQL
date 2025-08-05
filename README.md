@@ -29,18 +29,33 @@ A **Debug Mode** is available to show the SQL query and raw results for verifica
 ```bash
 git clone <your-repo-url>
 cd text-to-sql
+```
 
 ### **1️⃣ Install UV and Create Environment**
 Ensure you have [UV](https://github.com/astral-sh/uv) installed.
 
 ```bash
+pip install uv
 uv init text-to-sql
 cd text-to-sql
+```
+### Create and Activate Virtual Environment
+Use UV to create and activate the environment:
+```bash
+# Create the environment (will generate .venv automatically)
+uv venv
+
+# Activate the environment
+# Windows
+.venv\Scripts\activate
+
+# macOS / Linux
+source .venv/bin/activate
 ```
 
 ### **2️⃣ Install Dependencies (Using UV)**
 
-If you have [UV](https://github.com/astral-sh/uv) installed, you can sync everything with one command:
+Once the virtual environment is active, install all dependencies:
 ```bash
 uv sync
 ```
