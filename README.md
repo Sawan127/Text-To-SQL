@@ -1,8 +1,7 @@
 # 📊 Text-to-SQL Chatbot (Gradio + SQLite + LangChain)
 
+![Gradio app](<images/Gradio app.png>)
 
-
-<video controls src="video/Text_To_Sql_Chatbot.mp4" title="Title"></video>
 
 This project is a **Text-to-SQL chatbot** built using:
 - **Google Gemini API** (wrapped in OpenAI-compatible interface)
