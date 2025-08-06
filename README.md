@@ -28,7 +28,7 @@ A **Debug Mode** is available to show the SQL query and raw results for verifica
 
 ### **Clone the Repository**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Sawan127/Text-To-SQL.git
 cd text-to-sql
 ```
 
